@@ -1,0 +1,104 @@
+Body{
+	font-family: Helvetica;
+	background-color: rgb(250,250,250);
+	alignment-baseline: central;
+}
+h1, h2, h3, p, li{
+  font-family: "Helvetica", sans-serif; /* if all headers use Helvetica */
+}
+{
+	font-family: 'Roboto Slab', serif;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: rgb(50,100,200);
+  text-decoration: none;
+}
+
+div{
+	margin: 50px auto;
+}
+
+
+
+/* Custom design with .class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+
+@media (max-width: 600px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+}
+.boxes-white{
+	background: white;
+    padding: 60px;
+    box-shadow: 0px 10px 60px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: #6B72B2;
+	color: white;
+}
+.list-column{
+	list-style: none;
+	padding: 10px;
+}
+.li-padding{
+	padding-top: 5px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #6B72E1;
+}
+
+.list-inline i:hover{
+	color: #6B72B2;
+
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
